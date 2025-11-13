@@ -164,7 +164,7 @@ resource "segment_destination_subscription" "id-63ae71063087c501ae2f775d_pp12g6e
       "@path" = "$.userId"
     }
     user_properties = {
-      "@path" = "$.traits"
+      "@path" = "$.context.campaign"
     }
     utm_properties = {
       utm_campaign = {
